@@ -58,12 +58,20 @@ jobs:
           PY
 
       # 把结果提交回仓库，raw 地址也能直接当备用订阅
+      # 并发场景下 main 可能已经前进，所以先 rebase 再 push；
+      # 这里失败不应该挡住 Pages 部署，故 continue-on-error。
       - name: Commit results
+        continue-on-error: true
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dist/libretv-sources.json dist/report.json dist/report.html
-          git diff --staged --quiet || git commit -m "chore: update sources $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if git diff --staged --quiet; then
+            echo "dist 无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: update sources $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash origin main
           git push
 
       - uses: actions/configure-pages@v5
