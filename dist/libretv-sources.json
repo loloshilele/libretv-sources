@@ -41,6 +41,12 @@
       "detail": "https://apilj.com"
     },
     {
+      "name": "奶香香资源站",
+      "url": "https://naixxzy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://naixxzy.com"
+    },
+    {
       "name": "豪华资源站",
       "url": "https://haohuazy.com/api.php/provide/vod",
       "isAdult": false,
@@ -179,6 +185,12 @@
       "detail": "https://slapibf.com"
     },
     {
+      "name": "百度云资源站",
+      "url": "https://api.apibdzy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.apibdzy.com"
+    },
+    {
       "name": "黄色仓库资源",
       "url": "https://hsckzy888.com/api.php/provide/vod",
       "isAdult": false,
@@ -219,6 +231,12 @@
       "url": "https://thzy1.me/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://thzy1.me"
+    },
+    {
+      "name": "艾旦资源站",
+      "url": "https://lovedan.net/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://lovedan.net"
     },
     {
       "name": "越南资源站",
