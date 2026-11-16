@@ -1,0 +1,95 @@
+name: Build LibreTV sources
+
+# 每 6 小时自动重建一次订阅文件：
+#   1. 拉资源站监测数据
+#   2. 逐个探测采集接口 + 抽样验证 m3u8
+#   3. 只把活着的源写进 dist/libretv-sources.json
+#   4. 发布到 GitHub Pages，得到固定订阅地址
+#
+# 也可在 Actions 页面点 "Run workflow" 手动触发。
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    # 机器人提交 dist/ 后不要再触发自己，否则会无限循环
+    paths-ignore:
+      - "dist/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-sources
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 无第三方依赖，纯标准库
+      - name: Build subscription
+        run: |
+          python build_libretv_sources.py \
+            --out dist \
+            --deep 15 \
+            --timeout 8 \
+            --workers 12 \
+            --drop-adult
+
+      - name: Show summary
+        run: |
+          python - <<'PY'
+          import json
+          d = json.load(open("dist/report.json", encoding="utf-8"))
+          print(f"存活 {d['alive']} / 剔除 {d['dropped']}")
+          for it in d["items"][:10]:
+              print(f"  {it['name'][:16]:18s} {it['apiMs']}ms  play={it['playOk']}")
+          PY
+
+      # 把结果提交回仓库，raw 地址也能直接当备用订阅
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/libretv-sources.json dist/report.json dist/report.html
+          git diff --staged --quiet || git commit -m "chore: update sources $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+  # 部署后输出订阅地址，方便在 Actions 日志里直接看到
+  notice:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Subscription URL
+        run: |
+          REPO="${{ github.repository }}"
+          OWNER="${REPO%%/*}"
+          NAME="${REPO##*/}"
+          echo "订阅地址（粘贴到 LibreTV 设置 → 数据源 → 数据源订阅）："
+          echo "  https://${OWNER}.github.io/${NAME}/libretv-sources.json"
+          echo "备用（raw）："
+          echo "  https://raw.githubusercontent.com/${REPO}/main/dist/libretv-sources.json"
