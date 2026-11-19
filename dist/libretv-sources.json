@@ -131,6 +131,12 @@
       "detail": "https://jyzyapi.com"
     },
     {
+      "name": "猫眼资源",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://api.maoyanapi.top"
+    },
+    {
       "name": "黑料资源站",
       "url": "https://heiliaozyapi.com/api.php/provide/vod",
       "isAdult": false,
