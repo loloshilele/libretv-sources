@@ -30,13 +30,13 @@
  footer{margin-top:26px;font-size:11.5px;color:var(--tx3);line-height:1.8}
 </style></head><body><div class="wrap">
 <h1>LibreTV 源 · 测活报告</h1>
-<div class="sub">生成于 2026-11-18 23:48 · 数据源 <span class="mono">https://mylazily.github.io/ziyuanzhan/data/online.json</span><br>
+<div class="sub">生成于 2026-11-19 05:32 · 数据源 <span class="mono">https://mylazily.github.io/ziyuanzhan/data/online.json</span><br>
 只保留采集接口真正返回数据的源；深度探测项额外验证了 m3u8 索引与首个分片是否可达。</div>
 <div class="kpis">
-  <div class="kpi g"><b>46</b><span>存活点播源</span></div>
-  <div class="kpi r"><b>4</b><span>探测失败已剔除</span></div>
+  <div class="kpi g"><b>45</b><span>存活点播源</span></div>
+  <div class="kpi r"><b>5</b><span>探测失败已剔除</span></div>
   <div class="kpi y"><b>15</b><span>深度探测</span></div>
-  <div class="kpi"><b>519ms</b><span>平均接口延迟</span></div>
+  <div class="kpi"><b>461ms</b><span>平均接口延迟</span></div>
 </div>
 <table><thead><tr>
 <th>#</th><th>名称 / 标签</th><th>采集接口</th><th>评分</th><th>资源数</th><th>延迟</th><th>今日更新</th><th>播放验证</th>
@@ -47,25 +47,25 @@
       <td class="mono sm">https://jipinvip1.com/api.php/provide/vod</td>
       <td class="num">4.8</td>
       <td class="num">74185</td>
-      <td class="num">555ms</td>
+      <td class="num">370ms</td>
       <td class="num">20</td>
-      <td><span class="ok">可播 5524ms</span></td>
+      <td><span class="ok">可播 117ms</span></td>
     </tr><tr>
       <td class="idx">2</td>
       <td><div class="nm">暴风资源站 </div><div class="tags"><span class="tag">秒播</span> <span class="tag">无水印</span> <span class="tag">稳定</span></div></td>
       <td class="mono sm">https://bfzyapi.com/api.php/provide/vod</td>
       <td class="num">4.6</td>
-      <td class="num">172933</td>
-      <td class="num">371ms</td>
+      <td class="num">173044</td>
+      <td class="num">296ms</td>
       <td class="num">4</td>
-      <td><span class="ok">可播 1225ms</span></td>
+      <td><span class="bad">m3u8 HTTP 404</span></td>
     </tr><tr>
       <td class="idx">3</td>
       <td><div class="nm">无尽资源站 </div><div class="tags"><span class="tag">资源丰富</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://api.wujinapi.me/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">125351</td>
-      <td class="num">208ms</td>
+      <td class="num">125437</td>
+      <td class="num">181ms</td>
       <td class="num">20</td>
       <td><span class="bad">m3u8 HTTP 403</span></td>
     </tr><tr>
@@ -73,8 +73,8 @@
       <td><div class="nm">最大资源站 </div><div class="tags"><span class="tag">资源量大</span> <span class="tag">老牌</span> <span class="tag">稳定</span></div></td>
       <td class="mono sm">http://zuidazy.me/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">126016</td>
-      <td class="num">299ms</td>
+      <td class="num">126043</td>
+      <td class="num">148ms</td>
       <td class="num">5</td>
       <td><span class="bad">m3u8 HTTP 403</span></td>
     </tr><tr>
@@ -82,8 +82,8 @@
       <td><div class="nm">牛牛资源 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">高速</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://api.niuniuzy.me/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">126027</td>
-      <td class="num">388ms</td>
+      <td class="num">126054</td>
+      <td class="num">192ms</td>
       <td class="num">5</td>
       <td><span class="bad">m3u8 HTTP 403</span></td>
     </tr><tr>
@@ -91,53 +91,53 @@
       <td><div class="nm">辣椒资源站 </div><div class="tags"><span class="tag">高清</span> <span class="tag">采集站</span> <span class="tag">影视资源</span></div></td>
       <td class="mono sm">https://apilj.com/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">233506</td>
-      <td class="num">823ms</td>
+      <td class="num">233590</td>
+      <td class="num">754ms</td>
       <td class="num">20</td>
-      <td><span class="ok">可播 575ms</span></td>
+      <td><span class="ok">可播 655ms</span></td>
     </tr><tr>
       <td class="idx">7</td>
       <td><div class="nm">奶香香资源站 </div><div class="tags"><span class="tag">极速</span> <span class="tag">综合</span> <span class="tag">API</span></div></td>
       <td class="mono sm">https://naixxzy.com/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">183841</td>
-      <td class="num">1073ms</td>
+      <td class="num">183934</td>
+      <td class="num">1254ms</td>
       <td class="num">50</td>
-      <td><span class="bad">URLError: &lt;urlopen error _ssl.c:994: The handshake operation timed out&gt;</span></td>
+      <td><span class="ok">可播 200ms</span></td>
     </tr><tr>
       <td class="idx">8</td>
       <td><div class="nm">豪华资源站 </div><div class="tags"><span class="tag">无广告</span> <span class="tag">无水印</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://haohuazy.com/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">117779</td>
-      <td class="num">752ms</td>
+      <td class="num">117784</td>
+      <td class="num">771ms</td>
       <td class="num">17</td>
-      <td><span class="ok">可播 247ms</span></td>
+      <td><span class="bad">m3u8 URLError: &lt;urlopen error timed out&gt;</span></td>
     </tr><tr>
       <td class="idx">9</td>
       <td><div class="nm">360资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">采集站</span> <span class="tag">API</span></div></td>
       <td class="mono sm">https://360zy.com/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">75343</td>
-      <td class="num">1077ms</td>
+      <td class="num">75405</td>
+      <td class="num">1197ms</td>
       <td class="num">20</td>
-      <td><span class="ok">可播 820ms</span></td>
+      <td><span class="ok">可播 1102ms</span></td>
     </tr><tr>
       <td class="idx">10</td>
       <td><div class="nm">红牛资源站 </div><div class="tags"><span class="tag">老牌</span> <span class="tag">稳定</span> <span class="tag">m3u8</span></div></td>
       <td class="mono sm">http://hongniuzy2.com/api.php/provide/vod</td>
       <td class="num">4.5</td>
-      <td class="num">118095</td>
-      <td class="num">187ms</td>
+      <td class="num">118100</td>
+      <td class="num">146ms</td>
       <td class="num">17</td>
-      <td><span class="ok">可播 1755ms</span></td>
+      <td><span class="ok">可播 3356ms</span></td>
     </tr><tr>
       <td class="idx">11</td>
       <td><div class="nm">鸭鸭资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">资源丰富</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://cj.yayazy.net/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">124072</td>
-      <td class="num">284ms</td>
+      <td class="num">124099</td>
+      <td class="num">288ms</td>
       <td class="num">5</td>
       <td><span class="bad">m3u8 HTTP 403</span></td>
     </tr><tr>
@@ -145,17 +145,17 @@
       <td><div class="nm">极速资源站 </div><div class="tags"><span class="tag">极速</span> <span class="tag">JSON</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://jszyapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">117020</td>
-      <td class="num">119ms</td>
+      <td class="num">117025</td>
+      <td class="num">99ms</td>
       <td class="num">16</td>
-      <td><span class="ok">可播 410ms</span></td>
+      <td><span class="bad">m3u8 URLError: &lt;urlopen error timed out&gt;</span></td>
     </tr><tr>
       <td class="idx">13</td>
       <td><div class="nm">天涯影视资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">影视资源</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://tyyszyapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">76042</td>
-      <td class="num">328ms</td>
+      <td class="num">76141</td>
+      <td class="num">199ms</td>
       <td class="num">13</td>
       <td><span class="bad">m3u8 RemoteDisconnected: Remote end closed connection without response</span></td>
     </tr><tr>
@@ -164,16 +164,16 @@
       <td class="mono sm">https://apidanaizi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
       <td class="num">145108</td>
-      <td class="num">482ms</td>
+      <td class="num">517ms</td>
       <td class="num">20</td>
-      <td><span class="ok">可播 260ms</span></td>
+      <td><span class="ok">可播 92ms</span></td>
     </tr><tr>
       <td class="idx">15</td>
       <td><div class="nm">索尼采集站 </div><div class="tags"><span class="tag">资源丰富</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://suonizy.net/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">149281</td>
-      <td class="num">254ms</td>
+      <td class="num">149337</td>
+      <td class="num">230ms</td>
       <td class="num">20</td>
       <td><span class="bad">m3u8 HTTP 403</span></td>
     </tr><tr>
@@ -181,8 +181,8 @@
       <td><div class="nm">樱花资源站 </div><div class="tags"><span class="tag">极速</span> <span class="tag">API</span> <span class="tag">精品</span></div></td>
       <td class="mono sm">https://m3u8.apiyhzy.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">105594</td>
-      <td class="num">413ms</td>
+      <td class="num">105610</td>
+      <td class="num">341ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
@@ -190,8 +190,8 @@
       <td><div class="nm">JKUN资源站 </div><div class="tags"><span class="tag">API</span> <span class="tag">精品</span> <span class="tag">新站</span></div></td>
       <td class="mono sm">https://jkunzyapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">134831</td>
-      <td class="num">210ms</td>
+      <td class="num">134891</td>
+      <td class="num">114ms</td>
       <td class="num">50</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
@@ -199,8 +199,8 @@
       <td><div class="nm">非凡资源站 </div><div class="tags"><span class="tag">JSON</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://ffzy5.tv/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">99176</td>
-      <td class="num">214ms</td>
+      <td class="num">99182</td>
+      <td class="num">672ms</td>
       <td class="num">12</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
@@ -208,8 +208,8 @@
       <td><div class="nm">虎牙资源站 </div><div class="tags"><span class="tag">资源丰富</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://huyazy.net/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">117609</td>
-      <td class="num">684ms</td>
+      <td class="num">117614</td>
+      <td class="num">164ms</td>
       <td class="num">17</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
@@ -217,8 +217,8 @@
       <td><div class="nm">精品X资源站 </div><div class="tags"><span class="tag">采集站</span> <span class="tag">热门</span> <span class="tag">极速</span></div></td>
       <td class="mono sm">https://www.jingpinx.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">67736</td>
-      <td class="num">955ms</td>
+      <td class="num">67771</td>
+      <td class="num">953ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
@@ -226,233 +226,224 @@
       <td><div class="nm">金鹰资源站 </div><div class="tags"><span class="tag">m3u8</span> <span class="tag">直链</span> <span class="tag">稳定</span></div></td>
       <td class="mono sm">https://jyzyapi.com/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">118672</td>
-      <td class="num">211ms</td>
+      <td class="num">118677</td>
+      <td class="num">180ms</td>
       <td class="num">17</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">22</td>
-      <td><div class="nm">猫眼资源 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">可靠</span> <span class="tag">采集站</span></div></td>
-      <td class="mono sm">https://api.maoyanapi.top/api.php/provide/vod</td>
-      <td class="num">4.4</td>
-      <td class="num">34591</td>
-      <td class="num">804ms</td>
-      <td class="num">30</td>
-      <td><span class="dim">未深测</span></td>
-    </tr><tr>
-      <td class="idx">23</td>
       <td><div class="nm">黑料资源站 </div><div class="tags"><span class="tag">采集站</span> <span class="tag">API</span> <span class="tag">高清</span></div></td>
       <td class="mono sm">https://heiliaozyapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">104789</td>
-      <td class="num">825ms</td>
+      <td class="num">105249</td>
+      <td class="num">722ms</td>
       <td class="num">50</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">24</td>
+      <td class="idx">23</td>
       <td><div class="nm">爱奇艺资源站 </div><div class="tags"><span class="tag">资源丰富</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://iqiyizyapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">71023</td>
-      <td class="num">1456ms</td>
+      <td class="num">71073</td>
+      <td class="num">1676ms</td>
       <td class="num">15</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">25</td>
+      <td class="idx">24</td>
       <td><div class="nm">速播资源站 </div><div class="tags"><span class="tag">JSON</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://subocj.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">118613</td>
-      <td class="num">962ms</td>
+      <td class="num">118618</td>
+      <td class="num">725ms</td>
       <td class="num">17</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">26</td>
+      <td class="idx">25</td>
       <td><div class="nm">鲨鱼资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">综合</span> <span class="tag">新站</span></div></td>
       <td class="mono sm">https://shayuapi.com/api.php/provide/vod</td>
       <td class="num">4.4</td>
-      <td class="num">290932</td>
-      <td class="num">974ms</td>
+      <td class="num">291083</td>
+      <td class="num">889ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">27</td>
+      <td class="idx">26</td>
       <td><div class="nm">光速资源站 </div><div class="tags"><span class="tag">极速</span> <span class="tag">m3u8</span> <span class="tag">直链</span></div></td>
       <td class="mono sm">https://api.guangsuapi.com/api.php/provide/vod</td>
       <td class="num">4.3</td>
-      <td class="num">118686</td>
-      <td class="num">196ms</td>
+      <td class="num">118691</td>
+      <td class="num">211ms</td>
       <td class="num">17</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">28</td>
+      <td class="idx">27</td>
       <td><div class="nm">155资源站 </div><div class="tags"><span class="tag">高清</span> <span class="tag">API</span> <span class="tag">极速</span></div></td>
       <td class="mono sm">https://155api.com/api.php/provide/vod</td>
       <td class="num">4.3</td>
-      <td class="num">193864</td>
-      <td class="num">388ms</td>
+      <td class="num">193948</td>
+      <td class="num">103ms</td>
+      <td class="num">20</td>
+      <td><span class="dim">未深测</span></td>
+    </tr><tr>
+      <td class="idx">28</td>
+      <td><div class="nm">茅台资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">更新及时</span> <span class="tag">采集站</span></div></td>
+      <td class="mono sm">https://mtzy5.com/api.php/provide/vod</td>
+      <td class="num">4.3</td>
+      <td class="num">152966</td>
+      <td class="num">1189ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">29</td>
-      <td><div class="nm">茅台资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">更新及时</span> <span class="tag">采集站</span></div></td>
-      <td class="mono sm">https://mtzy5.com/api.php/provide/vod</td>
+      <td><div class="nm">森林资源站 </div><div class="tags"><span class="tag">综合</span> <span class="tag">影视资源</span> <span class="tag">热门</span></div></td>
+      <td class="mono sm">https://slapibf.com/api.php/provide/vod</td>
       <td class="num">4.3</td>
-      <td class="num">152964</td>
-      <td class="num">1257ms</td>
+      <td class="num">264652</td>
+      <td class="num">260ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">30</td>
-      <td><div class="nm">森林资源站 </div><div class="tags"><span class="tag">综合</span> <span class="tag">影视资源</span> <span class="tag">热门</span></div></td>
-      <td class="mono sm">https://slapibf.com/api.php/provide/vod</td>
-      <td class="num">4.3</td>
-      <td class="num">264500</td>
-      <td class="num">393ms</td>
-      <td class="num">20</td>
-      <td><span class="dim">未深测</span></td>
-    </tr><tr>
-      <td class="idx">31</td>
       <td><div class="nm">百度云资源站 </div><div class="tags"><span class="tag">资源丰富</span> <span class="tag">稳定</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://api.apibdzy.com/api.php/provide/vod</td>
       <td class="num">4.3</td>
-      <td class="num">49763</td>
-      <td class="num">242ms</td>
+      <td class="num">49764</td>
+      <td class="num">192ms</td>
       <td class="num">3</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">32</td>
+      <td class="idx">31</td>
       <td><div class="nm">黄色仓库资源 </div><div class="tags"><span class="tag">热门</span> <span class="tag">精品</span> <span class="tag">稳定</span></div></td>
       <td class="mono sm">https://hsckzy888.com/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">70654</td>
-      <td class="num">172ms</td>
+      <td class="num">70673</td>
+      <td class="num">211ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">33</td>
+      <td class="idx">32</td>
       <td><div class="nm">老色X资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">极速</span> <span class="tag">综合</span></div></td>
       <td class="mono sm">https://apilsbzy1.com/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">226987</td>
-      <td class="num">239ms</td>
+      <td class="num">227164</td>
+      <td class="num">144ms</td>
+      <td class="num">10</td>
+      <td><span class="dim">未深测</span></td>
+    </tr><tr>
+      <td class="idx">33</td>
+      <td><div class="nm">玉兔资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">API</span> <span class="tag">高清</span></div></td>
+      <td class="mono sm">https://apiyutu.com/api.php/provide/vod</td>
+      <td class="num">4.2</td>
+      <td class="num">227164</td>
+      <td class="num">157ms</td>
       <td class="num">10</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">34</td>
-      <td><div class="nm">玉兔资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">API</span> <span class="tag">高清</span></div></td>
-      <td class="mono sm">https://apiyutu.com/api.php/provide/vod</td>
-      <td class="num">4.2</td>
-      <td class="num">226987</td>
-      <td class="num">241ms</td>
-      <td class="num">10</td>
-      <td><span class="dim">未深测</span></td>
-    </tr><tr>
-      <td class="idx">35</td>
       <td><div class="nm">奥斯卡资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">精品</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://aosikazy.com/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">220317</td>
-      <td class="num">358ms</td>
+      <td class="num">220403</td>
+      <td class="num">258ms</td>
       <td class="num">50</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">36</td>
+      <td class="idx">35</td>
       <td><div class="nm">乐播资源站 </div><div class="tags"><span class="tag">综合</span> <span class="tag">API</span> <span class="tag">稳定</span></div></td>
       <td class="mono sm">https://lbapi9.com/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">339411</td>
-      <td class="num">834ms</td>
+      <td class="num">339559</td>
+      <td class="num">491ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">37</td>
+      <td class="idx">36</td>
       <td><div class="nm">麻豆资源站 </div><div class="tags"><span class="tag">精品</span> <span class="tag">稳定</span> <span class="tag">影视资源</span></div></td>
       <td class="mono sm">https://91md.me/api.php/provide/vod</td>
       <td class="num">4.2</td>
       <td class="num">41257</td>
-      <td class="num">315ms</td>
+      <td class="num">578ms</td>
       <td class="num">25</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">38</td>
+      <td class="idx">37</td>
       <td><div class="nm">桃花资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">综合</span> <span class="tag">精品</span></div></td>
       <td class="mono sm">https://thzy1.me/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">153073</td>
-      <td class="num">1109ms</td>
+      <td class="num">153108</td>
+      <td class="num">1023ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">39</td>
+      <td class="idx">38</td>
       <td><div class="nm">艾旦资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://lovedan.net/api.php/provide/vod</td>
       <td class="num">4.2</td>
-      <td class="num">189846</td>
-      <td class="num">1210ms</td>
+      <td class="num">189882</td>
+      <td class="num">739ms</td>
       <td class="num">0</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">40</td>
+      <td class="idx">39</td>
       <td><div class="nm">越南资源站 </div><div class="tags"><span class="tag">API</span> <span class="tag">精品</span> <span class="tag">新站</span></div></td>
       <td class="mono sm">https://api.vnzyz.com/api.php/provide/vod</td>
       <td class="num">4.1</td>
       <td class="num">13101</td>
-      <td class="num">278ms</td>
+      <td class="num">364ms</td>
+      <td class="num">20</td>
+      <td><span class="dim">未深测</span></td>
+    </tr><tr>
+      <td class="idx">40</td>
+      <td><div class="nm">小鸡资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">综合</span> <span class="tag">极速</span></div></td>
+      <td class="mono sm">https://api.xiaojizy.live/provide/vod</td>
+      <td class="num">4.1</td>
+      <td class="num">85097</td>
+      <td class="num">113ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">41</td>
-      <td><div class="nm">小鸡资源站 </div><div class="tags"><span class="tag">稳定</span> <span class="tag">综合</span> <span class="tag">极速</span></div></td>
-      <td class="mono sm">https://api.xiaojizy.live/provide/vod</td>
+      <td><div class="nm">番号资源站 </div><div class="tags"><span class="tag">综合</span> <span class="tag">精品</span> <span class="tag">极速</span></div></td>
+      <td class="mono sm">http://fhapi9.com/api.php/provide/vod</td>
       <td class="num">4.1</td>
-      <td class="num">85047</td>
-      <td class="num">315ms</td>
+      <td class="num">239100</td>
+      <td class="num">501ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
       <td class="idx">42</td>
-      <td><div class="nm">番号资源站 </div><div class="tags"><span class="tag">综合</span> <span class="tag">精品</span> <span class="tag">极速</span></div></td>
-      <td class="mono sm">http://fhapi9.com/api.php/provide/vod</td>
-      <td class="num">4.1</td>
-      <td class="num">239016</td>
-      <td class="num">580ms</td>
-      <td class="num">20</td>
-      <td><span class="dim">未深测</span></td>
-    </tr><tr>
-      <td class="idx">43</td>
       <td><div class="nm">滴滴资源站 </div><div class="tags"><span class="tag">精品</span> <span class="tag">API</span> <span class="tag">采集站</span></div></td>
       <td class="mono sm">https://api.ddapi.cc/api.php/provide/vod</td>
       <td class="num">4.0</td>
       <td class="num">47100</td>
-      <td class="num">251ms</td>
+      <td class="num">294ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">44</td>
+      <td class="idx">43</td>
       <td><div class="nm">杏吧资源站 </div><div class="tags"><span class="tag">新站</span> <span class="tag">稳定</span> <span class="tag">热门</span></div></td>
       <td class="mono sm">https://json.xingba222.com/api.php/provide/vod</td>
       <td class="num">4.0</td>
       <td class="num">126901</td>
-      <td class="num">702ms</td>
+      <td class="num">659ms</td>
       <td class="num">0</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">45</td>
+      <td class="idx">44</td>
       <td><div class="nm">爱坤资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">采集站</span> <span class="tag">API</span></div></td>
       <td class="mono sm">https://ikunzyapi.com/api.php/provide/vod</td>
       <td class="num">4.0</td>
-      <td class="num">67744</td>
-      <td class="num">411ms</td>
+      <td class="num">67746</td>
+      <td class="num">188ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr><tr>
-      <td class="idx">46</td>
+      <td class="idx">45</td>
       <td><div class="nm">番茄资源站 </div><div class="tags"><span class="tag">影视资源</span> <span class="tag">精品</span> <span class="tag">极速</span></div></td>
       <td class="mono sm">https://fqzy.me/api.php/provide/vod</td>
       <td class="num">4.0</td>
       <td class="num">119298</td>
-      <td class="num">984ms</td>
+      <td class="num">1020ms</td>
       <td class="num">20</td>
       <td><span class="dim">未深测</span></td>
     </tr>
