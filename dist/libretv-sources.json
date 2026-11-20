@@ -137,12 +137,6 @@
       "detail": "https://api.maoyanapi.top"
     },
     {
-      "name": "黑料资源站",
-      "url": "https://heiliaozyapi.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://heiliaozyapi.com"
-    },
-    {
       "name": "爱奇艺资源站",
       "url": "https://iqiyizyapi.com/api.php/provide/vod",
       "isAdult": false,
@@ -207,12 +201,6 @@
       "url": "https://apiyutu.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://apiyutu.com"
-    },
-    {
-      "name": "奥斯卡资源站",
-      "url": "https://aosikazy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://aosikazy.com"
     },
     {
       "name": "乐播资源站",
