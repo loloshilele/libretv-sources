@@ -191,12 +191,6 @@
       "detail": "https://api.apibdzy.com"
     },
     {
-      "name": "黄色仓库资源",
-      "url": "https://hsckzy888.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://hsckzy888.com"
-    },
-    {
       "name": "老色X资源站",
       "url": "https://apilsbzy1.com/api.php/provide/vod",
       "isAdult": false,
@@ -207,6 +201,12 @@
       "url": "https://apiyutu.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://apiyutu.com"
+    },
+    {
+      "name": "奥斯卡资源站",
+      "url": "https://aosikazy.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://aosikazy.com"
     },
     {
       "name": "乐播资源站",
