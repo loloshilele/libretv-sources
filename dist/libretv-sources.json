@@ -209,12 +209,6 @@
       "detail": "https://apiyutu.com"
     },
     {
-      "name": "奥斯卡资源站",
-      "url": "https://aosikazy.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://aosikazy.com"
-    },
-    {
       "name": "乐播资源站",
       "url": "https://lbapi9.com/api.php/provide/vod",
       "isAdult": false,
