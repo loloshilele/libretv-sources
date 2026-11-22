@@ -1,7 +1,7 @@
 {
   "name": "LibreTV 自动测活源",
   "version": 2,
-  "snapshotDate": "2026-11-21",
+  "snapshotDate": "2026-11-22",
   "generatedBy": "libretv_sources_build.py",
   "sources": [
     {
@@ -189,6 +189,12 @@
       "url": "https://api.apibdzy.com/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://api.apibdzy.com"
+    },
+    {
+      "name": "黄色仓库资源",
+      "url": "https://hsckzy888.com/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://hsckzy888.com"
     },
     {
       "name": "老色X资源站",
