@@ -1,7 +1,7 @@
 {
   "name": "LibreTV 自动测活源",
   "version": 2,
-  "snapshotDate": "2026-11-22",
+  "snapshotDate": "2026-11-23",
   "generatedBy": "libretv_sources_build.py",
   "sources": [
     {
@@ -135,12 +135,6 @@
       "url": "https://api.maoyanapi.top/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://api.maoyanapi.top"
-    },
-    {
-      "name": "黑料资源站",
-      "url": "https://heiliaozyapi.com/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://heiliaozyapi.com"
     },
     {
       "name": "爱奇艺资源站",
