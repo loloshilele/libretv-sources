@@ -1,7 +1,7 @@
 {
   "name": "LibreTV 自动测活源",
   "version": 2,
-  "snapshotDate": "2026-11-23",
+  "snapshotDate": "2026-11-24",
   "generatedBy": "libretv_sources_build.py",
   "sources": [
     {
