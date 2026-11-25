@@ -1,7 +1,7 @@
 {
   "name": "LibreTV 自动测活源",
   "version": 2,
-  "snapshotDate": "2026-11-24",
+  "snapshotDate": "2026-11-25",
   "generatedBy": "libretv_sources_build.py",
   "sources": [
     {
@@ -231,12 +231,6 @@
       "url": "https://thzy1.me/api.php/provide/vod",
       "isAdult": false,
       "detail": "https://thzy1.me"
-    },
-    {
-      "name": "艾旦资源站",
-      "url": "https://lovedan.net/api.php/provide/vod",
-      "isAdult": false,
-      "detail": "https://lovedan.net"
     },
     {
       "name": "越南资源站",
