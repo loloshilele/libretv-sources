@@ -233,6 +233,12 @@
       "detail": "https://thzy1.me"
     },
     {
+      "name": "艾旦资源站",
+      "url": "https://lovedan.net/api.php/provide/vod",
+      "isAdult": false,
+      "detail": "https://lovedan.net"
+    },
+    {
       "name": "越南资源站",
       "url": "https://api.vnzyz.com/api.php/provide/vod",
       "isAdult": false,
