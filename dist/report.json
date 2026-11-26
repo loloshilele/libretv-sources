@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T16:39:49+00:00",
+  "generatedAt": "2026-11-26T01:26:59+00:00",
   "source": "https://mylazily.github.io/ziyuanzhan/data/online.json",
   "alive": 46,
   "dropped": 4,
@@ -9,7 +9,7 @@
       "url": "https://jipinvip1.com/api.php/provide/vod",
       "detail": "https://jipinvip1.com",
       "rating": 4.8,
-      "resources": 74800,
+      "resources": 74900,
       "todayUpdates": 20,
       "tags": [
         "无广告",
@@ -17,23 +17,23 @@
         "秒播",
         "极品"
       ],
-      "apiMs": 367,
+      "apiMs": 489,
       "playOk": true,
-      "playMs": 309
+      "playMs": 330
     },
     {
       "name": "暴风资源站",
       "url": "https://bfzyapi.com/api.php/provide/vod",
       "detail": "https://bfzyapi.com",
       "rating": 4.6,
-      "resources": 173793,
+      "resources": 173838,
       "todayUpdates": 4,
       "tags": [
         "秒播",
         "无水印",
         "稳定"
       ],
-      "apiMs": 406,
+      "apiMs": 585,
       "playOk": false,
       "playMs": null
     },
@@ -49,7 +49,7 @@
         "稳定",
         "采集站"
       ],
-      "apiMs": 117,
+      "apiMs": 194,
       "playOk": false,
       "playMs": null
     },
@@ -58,14 +58,14 @@
       "url": "http://zuidazy.me/api.php/provide/vod",
       "detail": "http://zuidazy.me",
       "rating": 4.5,
-      "resources": 126271,
+      "resources": 126272,
       "todayUpdates": 5,
       "tags": [
         "资源量大",
         "老牌",
         "稳定"
       ],
-      "apiMs": 221,
+      "apiMs": 258,
       "playOk": false,
       "playMs": null
     },
@@ -74,14 +74,14 @@
       "url": "https://api.niuniuzy.me/api.php/provide/vod",
       "detail": "https://api.niuniuzy.me",
       "rating": 4.5,
-      "resources": 126286,
+      "resources": 126287,
       "todayUpdates": 5,
       "tags": [
         "稳定",
         "高速",
         "采集站"
       ],
-      "apiMs": 179,
+      "apiMs": 259,
       "playOk": false,
       "playMs": null
     },
@@ -97,9 +97,9 @@
         "采集站",
         "影视资源"
       ],
-      "apiMs": 748,
+      "apiMs": 824,
       "playOk": true,
-      "playMs": 590
+      "playMs": 578
     },
     {
       "name": "奶香香资源站",
@@ -113,9 +113,9 @@
         "综合",
         "API"
       ],
-      "apiMs": 909,
+      "apiMs": 1389,
       "playOk": true,
-      "playMs": 336
+      "playMs": 276
     },
     {
       "name": "豪华资源站",
@@ -129,7 +129,7 @@
         "无水印",
         "采集站"
       ],
-      "apiMs": 534,
+      "apiMs": 841,
       "playOk": false,
       "playMs": null
     },
@@ -138,16 +138,16 @@
       "url": "https://360zy.com/api.php/provide/vod",
       "detail": "https://360zy.com",
       "rating": 4.5,
-      "resources": 75811,
+      "resources": 75812,
       "todayUpdates": 20,
       "tags": [
         "影视资源",
         "采集站",
         "API"
       ],
-      "apiMs": 1150,
+      "apiMs": 1472,
       "playOk": true,
-      "playMs": 987
+      "playMs": 913
     },
     {
       "name": "红牛资源站",
@@ -161,23 +161,23 @@
         "稳定",
         "m3u8"
       ],
-      "apiMs": 228,
+      "apiMs": 284,
       "playOk": true,
-      "playMs": 2272
+      "playMs": 1429
     },
     {
       "name": "鸭鸭资源站",
       "url": "https://cj.yayazy.net/api.php/provide/vod",
       "detail": "https://cj.yayazy.net",
       "rating": 4.4,
-      "resources": 124329,
+      "resources": 124330,
       "todayUpdates": 5,
       "tags": [
         "稳定",
         "资源丰富",
         "采集站"
       ],
-      "apiMs": 556,
+      "apiMs": 262,
       "playOk": false,
       "playMs": null
     },
@@ -193,7 +193,7 @@
         "JSON",
         "采集站"
       ],
-      "apiMs": 134,
+      "apiMs": 204,
       "playOk": false,
       "playMs": null
     },
@@ -202,14 +202,14 @@
       "url": "https://tyyszyapi.com/api.php/provide/vod",
       "detail": "https://tyyszyapi.com",
       "rating": 4.4,
-      "resources": 77670,
+      "resources": 77673,
       "todayUpdates": 13,
       "tags": [
         "稳定",
         "影视资源",
         "采集站"
       ],
-      "apiMs": 235,
+      "apiMs": 315,
       "playOk": false,
       "playMs": null
     },
@@ -218,16 +218,16 @@
       "url": "https://apidanaizi.com/api.php/provide/vod",
       "detail": "https://apidanaizi.com",
       "rating": 4.4,
-      "resources": 146174,
+      "resources": 146359,
       "todayUpdates": 20,
       "tags": [
         "影视资源",
         "API",
         "采集站"
       ],
-      "apiMs": 434,
+      "apiMs": 462,
       "playOk": true,
-      "playMs": 237
+      "playMs": 387
     },
     {
       "name": "索尼采集站",
@@ -241,7 +241,7 @@
         "稳定",
         "采集站"
       ],
-      "apiMs": 303,
+      "apiMs": 280,
       "playOk": false,
       "playMs": null
     },
@@ -257,7 +257,7 @@
         "API",
         "精品"
       ],
-      "apiMs": 460,
+      "apiMs": 479,
       "playOk": null,
       "playMs": null
     },
@@ -273,7 +273,7 @@
         "精品",
         "新站"
       ],
-      "apiMs": 130,
+      "apiMs": 170,
       "playOk": null,
       "playMs": null
     },
@@ -282,14 +282,14 @@
       "url": "https://ffzy5.tv/api.php/provide/vod",
       "detail": "https://ffzy5.tv",
       "rating": 4.4,
-      "resources": 99285,
+      "resources": 99287,
       "todayUpdates": 12,
       "tags": [
         "JSON",
         "稳定",
         "采集站"
       ],
-      "apiMs": 173,
+      "apiMs": 226,
       "playOk": null,
       "playMs": null
     },
@@ -305,7 +305,7 @@
         "稳定",
         "采集站"
       ],
-      "apiMs": 215,
+      "apiMs": 614,
       "playOk": null,
       "playMs": null
     },
@@ -314,14 +314,14 @@
       "url": "https://www.jingpinx.com/api.php/provide/vod",
       "detail": "https://www.jingpinx.com",
       "rating": 4.4,
-      "resources": 68754,
+      "resources": 68877,
       "todayUpdates": 20,
       "tags": [
         "采集站",
         "热门",
         "极速"
       ],
-      "apiMs": 1011,
+      "apiMs": 911,
       "playOk": null,
       "playMs": null
     },
@@ -337,7 +337,7 @@
         "直链",
         "稳定"
       ],
-      "apiMs": 122,
+      "apiMs": 194,
       "playOk": null,
       "playMs": null
     },
@@ -353,7 +353,7 @@
         "可靠",
         "采集站"
       ],
-      "apiMs": 600,
+      "apiMs": 615,
       "playOk": null,
       "playMs": null
     },
@@ -362,14 +362,14 @@
       "url": "https://heiliaozyapi.com/api.php/provide/vod",
       "detail": "https://heiliaozyapi.com",
       "rating": 4.4,
-      "resources": 117730,
+      "resources": 118430,
       "todayUpdates": 50,
       "tags": [
         "采集站",
         "API",
         "高清"
       ],
-      "apiMs": 1057,
+      "apiMs": 1080,
       "playOk": null,
       "playMs": null
     },
@@ -385,7 +385,7 @@
         "稳定",
         "采集站"
       ],
-      "apiMs": 2333,
+      "apiMs": 1744,
       "playOk": null,
       "playMs": null
     },
@@ -401,7 +401,7 @@
         "稳定",
         "采集站"
       ],
-      "apiMs": 762,
+      "apiMs": 836,
       "playOk": null,
       "playMs": null
     },
@@ -417,7 +417,7 @@
         "综合",
         "新站"
       ],
-      "apiMs": 827,
+      "apiMs": 972,
       "playOk": null,
       "playMs": null
     },
@@ -433,7 +433,7 @@
         "m3u8",
         "直链"
       ],
-      "apiMs": 75,
+      "apiMs": 175,
       "playOk": null,
       "playMs": null
     },
@@ -449,7 +449,7 @@
         "API",
         "极速"
       ],
-      "apiMs": 101,
+      "apiMs": 431,
       "playOk": null,
       "playMs": null
     },
@@ -465,7 +465,7 @@
         "更新及时",
         "采集站"
       ],
-      "apiMs": 1167,
+      "apiMs": 1245,
       "playOk": null,
       "playMs": null
     },
@@ -481,7 +481,7 @@
         "影视资源",
         "热门"
       ],
-      "apiMs": 333,
+      "apiMs": 413,
       "playOk": null,
       "playMs": null
     },
@@ -490,14 +490,14 @@
       "url": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://api.apibdzy.com",
       "rating": 4.3,
-      "resources": 49824,
+      "resources": 49827,
       "todayUpdates": 3,
       "tags": [
         "资源丰富",
         "稳定",
         "采集站"
       ],
-      "apiMs": 174,
+      "apiMs": 278,
       "playOk": null,
       "playMs": null
     },
@@ -513,7 +513,7 @@
         "精品",
         "稳定"
       ],
-      "apiMs": 220,
+      "apiMs": 210,
       "playOk": null,
       "playMs": null
     },
@@ -529,7 +529,7 @@
         "极速",
         "综合"
       ],
-      "apiMs": 268,
+      "apiMs": 309,
       "playOk": null,
       "playMs": null
     },
@@ -545,7 +545,7 @@
         "API",
         "高清"
       ],
-      "apiMs": 218,
+      "apiMs": 252,
       "playOk": null,
       "playMs": null
     },
@@ -561,7 +561,7 @@
         "精品",
         "采集站"
       ],
-      "apiMs": 297,
+      "apiMs": 315,
       "playOk": null,
       "playMs": null
     },
@@ -577,7 +577,7 @@
         "API",
         "稳定"
       ],
-      "apiMs": 291,
+      "apiMs": 727,
       "playOk": null,
       "playMs": null
     },
@@ -593,7 +593,7 @@
         "稳定",
         "影视资源"
       ],
-      "apiMs": 4071,
+      "apiMs": 445,
       "playOk": null,
       "playMs": null
     },
@@ -602,14 +602,14 @@
       "url": "https://thzy1.me/api.php/provide/vod",
       "detail": "https://thzy1.me",
       "rating": 4.2,
-      "resources": 154084,
+      "resources": 154216,
       "todayUpdates": 20,
       "tags": [
         "影视资源",
         "综合",
         "精品"
       ],
-      "apiMs": 1071,
+      "apiMs": 1027,
       "playOk": null,
       "playMs": null
     },
@@ -624,7 +624,7 @@
         "影视资源",
         "采集站"
       ],
-      "apiMs": 1181,
+      "apiMs": 1822,
       "playOk": null,
       "playMs": null
     },
@@ -640,7 +640,7 @@
         "精品",
         "新站"
       ],
-      "apiMs": 312,
+      "apiMs": 320,
       "playOk": null,
       "playMs": null
     },
@@ -656,7 +656,7 @@
         "综合",
         "极速"
       ],
-      "apiMs": 337,
+      "apiMs": 296,
       "playOk": null,
       "playMs": null
     },
@@ -672,7 +672,7 @@
         "精品",
         "极速"
       ],
-      "apiMs": 505,
+      "apiMs": 596,
       "playOk": null,
       "playMs": null
     },
@@ -681,14 +681,14 @@
       "url": "https://api.ddapi.cc/api.php/provide/vod",
       "detail": "https://api.ddapi.cc",
       "rating": 4.0,
-      "resources": 47463,
+      "resources": 47485,
       "todayUpdates": 20,
       "tags": [
         "精品",
         "API",
         "采集站"
       ],
-      "apiMs": 271,
+      "apiMs": 292,
       "playOk": null,
       "playMs": null
     },
@@ -697,14 +697,14 @@
       "url": "https://json.xingba222.com/api.php/provide/vod",
       "detail": "https://json.xingba222.com",
       "rating": 4.0,
-      "resources": 128066,
+      "resources": 128264,
       "todayUpdates": 0,
       "tags": [
         "新站",
         "稳定",
         "热门"
       ],
-      "apiMs": 442,
+      "apiMs": 623,
       "playOk": null,
       "playMs": null
     },
@@ -720,7 +720,7 @@
         "采集站",
         "API"
       ],
-      "apiMs": 193,
+      "apiMs": 303,
       "playOk": null,
       "playMs": null
     },
@@ -729,14 +729,14 @@
       "url": "https://fqzy.me/api.php/provide/vod",
       "detail": "https://fqzy.me",
       "rating": 4.0,
-      "resources": 120065,
+      "resources": 120221,
       "todayUpdates": 20,
       "tags": [
         "影视资源",
         "精品",
         "极速"
       ],
-      "apiMs": 1044,
+      "apiMs": 971,
       "playOk": null,
       "playMs": null
     }
